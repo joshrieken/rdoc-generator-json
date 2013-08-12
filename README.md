@@ -1,6 +1,8 @@
-# Rdoc::Generator::Json
+# RDoc::Generator::JSON
 
-TODO: Write a gem description
+## Here Be Dragons
+
+A generator of simple JSON for RDoc. This is pre-alpha, unfinished software.
 
 ## Installation
 
@@ -18,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run RDoc, specifying this generator:
+
+    $ rdoc
 
 ## Contributing
 

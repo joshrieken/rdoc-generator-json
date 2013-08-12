@@ -1,0 +1,6 @@
+{
+  "classes": [
+    <% classes.each_with_index do |cl, i| %>"<%= cl.full_name %>"<% unless i == classes.length-1 %>,<% end %>
+    <% end %>
+  ]
+}

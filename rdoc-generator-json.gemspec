@@ -1,12 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rdoc/generator/json/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rdoc-generator-json"
-  spec.version       = RDocJSONGenerator::VERSION
-  spec.authors       = ["Joshua Rieken"]
+  spec.version       = "0.0.3"
+  spec.authors       = ["Joshua Rieken (facto)"]
   spec.email         = ["joshua@joshuarieken.com"]
   spec.description   = %q{JSON generator for RDoc}
   spec.summary       = %q{Exposes a new JSON formatter for RDoc which generates a simple JSON representation of code.}
