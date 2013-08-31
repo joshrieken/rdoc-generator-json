@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe RDoc::Generator::JSON::Generator do
+describe RDoc::Generator::Rjson do
 
   let(:subject) { described_class.new(store, options) }
   let(:store) { "store" }
