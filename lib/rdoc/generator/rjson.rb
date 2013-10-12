@@ -89,8 +89,14 @@ class RDoc::Generator::Rjson
 
   def method_representation(method)
     {
+      argslist: method.arglist,
+      block_params: method.block_params,
+      comment: comment_for(method),
       full_name: method.full_name,
-      comment: comment_for(method)
+      params: method.params,
+      param_seq: param_seq,
+      is_alias_for: method.is_alias_for,
+      visibility: method.visibility
     }
   end
 
