@@ -94,7 +94,6 @@ class RDoc::Generator::Rjson
       comment: comment_for(method),
       full_name: method.full_name,
       params: method.params,
-      param_seq: method.param_seq,
       is_alias_for: method.is_alias_for,
       visibility: method.visibility
     }
