@@ -93,6 +93,7 @@ class RDoc::Generator::Rjson
       block_params: method.block_params,
       comment: comment_for(method),
       full_name: method.full_name,
+      name: method.name,
       params: method.params,
       is_alias_for: method.is_alias_for,
       visibility: method.visibility
